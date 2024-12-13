@@ -1,0 +1,26 @@
+{
+  "name": "hw-js-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym-Ryaboshapka/hw-js-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maksym-Ryaboshapka/hw-js-4/issues"
+  },
+  "homepage": "https://github.com/Maksym-Ryaboshapka/hw-js-4#readme",
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Це заголовок</h1>
+        <h2 class="hero__subtitle">Це підзаголовок</h2>
+        <button class="hero__btn" id="modal-open">Це кнопка</button>
+      </section>
+    </main>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <img src="./images/close.png" alt="cross" class="modal__img" id="modal-close"/>
+        <h2 class="modal__title">Це модальне вікно</h2>
+        <p class="modal__text">
+          Це текст заглушка: Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Possimus, consectetur commodi laboriosam perferendis soluta
+          expedita ex fugit, incidunt laudantium aperiam consequuntur ducimus
+          vitae est, eius repellendus eos minima hic cumque!
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
